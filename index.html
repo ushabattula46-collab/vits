@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USHA- Portfolio</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: #eef7ff;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        background: #ffffff;
+        padding: 15px 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #333;
+        margin: 10px 15px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      nav a:hover {
+        color: #0077cc;
+      }
+
+      section {
+        padding: 60px 10%;
+      }
+
+      .content-box {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .hero {
+        text-align: center;
+      }
+
+      .hero img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #4da6ff;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        color: #0066cc;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: #0066cc;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        color: #444;
+        margin-bottom: 10px;
+      }
+
+      p,
+      li {
+        font-size: 18px;
+      }
+
+      ul {
+        margin-left: 20px;
+      }
+
+      .project {
+        border: 1px solid #d9eaff;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        background: #f8fbff;
+      }
+
+      .project:hover {
+        transform: translateY(-3px);
+        transition: 0.3s;
+      }
+
+      .contact p {
+        margin: 10px 0;
+      }
+
+      .contact a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+      .contact a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        background: #ffffff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .hero img {
+          width: 180px;
+          height: 180px;
+        }
+
+        section {
+          padding: 40px 5%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certificates</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+
+    <section id="home">
+      <div class="content-box hero">
+        <!-- Put your image in the same folder and rename it as profile.jpg -->
+
+        <img
+          src="c:\Users\akhil\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\ACC6B7730D0ED4C3A09446592F5C9A3DD9BD8EAD\transfers\2026-24\WhatsApp Image 2026-06-10 at 9.41.18 AM.jpeg"
+          alt="USHA"
+        />
+
+        <h1>USHA</h1>
+        <p><b>B.Tech Student | Java Developer | Web Developer</b></p>
+      </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+      <div class="content-box">
+        <h2>About Me</h2>
+
+        <p>
+          I am USHA, a Computer Science Engineering student with a strong
+          interest in Software Development, Web Development, Java Programming,
+          and Machine Learning. I enjoy learning new technologies and building
+          real-world projects that solve practical problems. I am passionate
+          about creating innovative applications and continuously improving my
+          technical skills.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+      <div class="content-box">
+        <h2>Skills</h2>
+
+        <ul>
+          <li>Java</li>
+          <li>Python</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>MySQL</li>
+          <li>Machine Learning</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+      <div class="content-box">
+        <h2>Education</h2>
+
+        <ul>
+          <li><strong>SSC</strong> - ZP High School - 95%</li>
+          <li>
+            <strong>Intermediate (MPC)</strong> - Sri Chaitanya Junior College -
+            92%
+          </li>
+          <li>
+            <strong>B.Tech (Computer Science and Engineering)</strong> - XYZ
+            Engineering College - 8.5 CGPA
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+
+    <section id="certifications">
+      <div class="content-box">
+        <h2>Certifications</h2>
+
+        <ul>
+          <li>Java Programming Certification</li>
+          <li>Python Programming Certification</li>
+          <li>Web Development Certification</li>
+          <li>Machine Learning Certification</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+      <div class="content-box">
+        <h2>Projects</h2>
+
+        <div class="project">
+          <h3>Heart Disease Prediction System</h3>
+          <p>
+            Developed a Machine Learning model that predicts heart disease using
+            patient medical data and predictive analytics.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>
+            Designed and developed a responsive personal portfolio website using
+            HTML and CSS.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Student Management System</h3>
+          <p>
+            Built a Java and MySQL application for maintaining and managing
+            student records efficiently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div class="content-box contact">
+        <h2>Contact Me</h2>
+
+        <p><strong>Email:</strong> yasaswinipulipati9@gmail.com</p>
+
+        <p><strong>Phone:</strong> +91 6303599130</p>
+
+        <p>
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/yasaswinipulipati9-glitch"
+            target="_blank"
+          >
+            github.com/yasaswinipulipati9-glitch
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Yasaswini Pulipati | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
